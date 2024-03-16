@@ -1,14 +1,14 @@
 const { Dessert } = require("../db");
-const axios = require("axios");
 
 //Postear un nuevo  postre
 
 const postDessert = async (req, res) => {
-  const { name_dessert, description, stock, price, image } = req.body;
+  const { name_dessert, category, description, stock, price, image } = req.body;
 
   try {
     const order = new Dessert({
       name_dessert,
+      category,
       description,
       stock,
       price,
@@ -20,6 +20,8 @@ const postDessert = async (req, res) => {
     next(error);
   }
 };
+
+
 
 
 module.exports = { postDessert };

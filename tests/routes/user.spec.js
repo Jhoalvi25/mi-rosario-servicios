@@ -8,20 +8,19 @@ chai.use(chaiHttp);
 
 const expect = chai.expect;
 
-describe('Registration Route', () => {
-    it('Deberia registrar un usuario con los datos correctos', (done) => {
+describe('Login Route', () => {
+    it('Deberia logear un usuario con los datos correctos', (done) => {
         const user = {
-            username: 'john.doe',
-            email: 'john.doe@example.com',
-            password: 'password123',
+            username: 'jhoalvi',
+            password: 'angriboy123',
         };
 
         chai.request(app)
-            .post('/api/register')
+            .post('/api/login')
             .send(user)
             .end((err, res) => {
-                expect(res).to.have.status(201);
-                expect(res.body).to.have.property('message').equals('Usuario registrado correctamente');
+                expect(res).to.have.status(200);
+                expect(res.body).to.have.property('message').equals('Haz ingresado');
                 done();
             });
     });

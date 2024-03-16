@@ -2,61 +2,68 @@ const Deserts = [
   {
     id: 1,
     name: "Yogurt",
-    price: "00.000 $",
+    category: "Dulce",
+    price: 15000,
     description:
       "Lorem ipsum dolor sit amet. Ad voluptas ipsa ea sequi dolorem et quisquam eligendi eos nemo voluptatem. Et quia obcaecati est ducimus voluptas ea ipsa tempore aut iste nobis et architecto laborum a sapiente commodi? Qui inventore quasi id explicabo voluptatum hic quas accusantium et voluptates voluptas est voluptatum corporis.",
     stock: 10,
     image:
-      "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/fd7a40b23d040d0c1bad21821e08c1ff.png?itok=S-pZd",
+      "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2018/06/yogurt-casero-de-fresa-receta.jpg",
   },
   {
     id: 2,
-
     name: "Gelatina",
-    price: "00.000 $",
+    category: "Dulce",
+    price: 8000,
     description:
       "Lorem ipsum dolor sit amet. Ad voluptas ipsa ea sequi dolorem et quisquam eligendi eos nemo voluptatem. Et quia obcaecati est ducimus voluptas ea ipsa tempore aut iste nobis et architecto laborum a sapiente commodi? Qui inventore quasi id explicabo voluptatum hic quas accusantium et voluptates voluptas est voluptatum corporis.",
     stock: 10,
     image:
-      "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/fd7a40b23d040d0c1bad21821e08c1ff.png?itok=S-pZd",
+      "https://www.pequerecetas.com/wp-content/uploads/2011/12/gelatina-de-leche-navidad-receta.jpg",
   },
   {
     id: 3,
     name: "Tequeños",
-    price: "00.000 $",
+    category: "Salado",
+    price: 18000,
     description:
       "Lorem ipsum dolor sit amet. Ad voluptas ipsa ea sequi dolorem et quisquam eligendi eos nemo voluptatem. Et quia obcaecati est ducimus voluptas ea ipsa tempore aut iste nobis et architecto laborum a sapiente commodi? Qui inventore quasi id explicabo voluptatum hic quas accusantium et voluptates voluptas est voluptatum corporis.",
     stock: 10,
     image:
-      "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/fd7a40b23d040d0c1bad21821e08c1ff.png?itok=S-pZd",
+      "https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2018/12/30092825/RFB-0000-30-tequen%CC%83os.jpg",
   },
   {
     id: 4,
     name: "Quesillo",
-    price: "00.000 $",
+    category: "Dulce",
+    price: 16000,
     description:
       "Lorem ipsum dolor sit amet. Ad voluptas ipsa ea sequi dolorem et quisquam eligendi eos nemo voluptatem. Et quia obcaecati est ducimus voluptas ea ipsa tempore aut iste nobis et architecto laborum a sapiente commodi? Qui inventore quasi id explicabo voluptatum hic quas accusantium et voluptates voluptas est voluptatum corporis.",
-    stock: 10,
+    stock: 0,
     image:
-      "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/fd7a40b23d040d0c1bad21821e08c1ff.png?itok=S-pZd",
+      "https://www.recetasjudias.com/wp-content/uploads/2015/12/Flan-Quesillo.jpg",
   },
   {
     id: 5,
     name: "Cup Cakes",
-    price: "00.000 $",
+    category: "Dulce",
+    price: 20000,
     description:
       "Lorem ipsum dolor sit amet. Ad voluptas ipsa ea sequi dolorem et quisquam eligendi eos nemo voluptatem. Et quia obcaecati est ducimus voluptas ea ipsa tempore aut iste nobis et architecto laborum a sapiente commodi? Qui inventore quasi id explicabo voluptatum hic quas accusantium et voluptates voluptas est voluptatum corporis.",
     stock: 10,
     image:
-      "https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/fd7a40b23d040d0c1bad21821e08c1ff.png?itok=S-pZd",
+      "https://www.clarin.com/img/2021/04/29/9lAb2baoa_1200x0__1.jpg",
   },
   {
     id: 6,
     name: "Bizcocho",
-    price: "00.000 $",
+    category: "Dulce",
+    price: 20000,
     description:
       "Lorem ipsum dolor sit amet. Ad voluptas ipsa ea sequi dolorem et quisquam eligendi eos nemo voluptatem. Et quia obcaecati est ducimus voluptas ea ipsa tempore aut iste nobis et architecto laborum a sapiente commodi? Qui inventore quasi id explicabo voluptatum hic quas accusantium et voluptates voluptas est voluptatum corporis.",
-    stock: 10,
+    stock: 0,
+    image:
+    "https://www.comedera.com/wp-content/uploads/2023/05/shutterstock_1738831742.jpg",
   },
 ];
 

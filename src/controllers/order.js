@@ -3,11 +3,13 @@ const { Order } = require("../db");
 //Enviar un pedido
 
 const sendOrder = async (req, res) => {
-  const { name_client, cellphone, direction, dessert, instructions } = req.body;
+  const { name_client, email, cellphone, direction, dessert, instructions } =
+    req.body;
 
   try {
     const order = new Order({
       name_client,
+      email,
       cellphone,
       direction,
       dessert,

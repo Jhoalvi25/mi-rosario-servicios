@@ -6,15 +6,13 @@ const chai = require('chai');
 const assert = chai.assert;
 
 describe('User Model', () => {
-    it('Deberia registar un usuario con los atributos correctos', () => {
-        const username = "john.doe";
-        const email = "john.doe@example.com";
-        const password = "password123";
+    it('Deberia dejar iniciar sesion con las credenciales correctas', () => {
+        const username = "jhoalvi";
+        const password = "angriboy123";
 
-        const user = new User({username, email, password});
+        const user = new User({username, password});
 
         assert.equal(user.username, username);
-        assert.equal(user.email, email);
         assert.equal(user.password, password);
 
     });
